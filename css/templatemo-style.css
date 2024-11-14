@@ -1027,6 +1027,7 @@ https://templatemo.com/tm-516-known
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     flex-wrap: wrap-reverse;
     column-gap: 100px;
     border-left: 5px solid green;
@@ -1036,8 +1037,8 @@ https://templatemo.com/tm-516-known
   }
   .img-box{
     width: 320px;
-    height: 550px;
-    background-color:#121f0c;
+    height: 420px;
+    background-image:url(../images/grass.jpg);
     position: relative;
     margin-top: 100px;
   }
