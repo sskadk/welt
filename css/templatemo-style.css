@@ -164,7 +164,7 @@ https://templatemo.com/tm-516-known
 
   #team,
   #testimonial {
-    background: #f9f9f9;
+    background: transparent;
   }
 
   #team, 
@@ -470,15 +470,24 @@ https://templatemo.com/tm-516-known
   }
 
   .team-info {
-    padding: 20px 30px;
+    border-top: 1px solid #a6f3a6;
+    border-left: 1px solid #a6f3a6;
+    border-right: 1px solid #a6f3a6;
+    padding: 20px 20px;
   }
 
   .team-image img {
     width: 100%;
+    border-top: 1px solid #a6f3a6;
+    border-left: 1px solid #a6f3a6;
+    border-right: 1px solid #a6f3a6;
   }
 
   .team-thumb .social-icon {
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid #a6f3a6;
+    border-left: 1px solid #a6f3a6;
+    border-right: 1px solid #a6f3a6;
+    border-bottom:1px solid #a6f3a6;
     padding: 4px 20px 0 20px;
   }
 
