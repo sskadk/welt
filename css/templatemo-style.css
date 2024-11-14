@@ -388,10 +388,12 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item-second {
     background-image: url(../images/slider-image2.jpg);
+    background-position: center;
   }
 
   .home-slider .item-third {
     background-image: url(../images/slider-image3.jpg);
+    background-position: center;
   }
 
 
@@ -683,7 +685,8 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #41a715;
+    background-image:url(../images/contact_back.jpg);
+    background-position: center;
   }
 
   #contact h2 {
@@ -710,7 +713,7 @@ https://templatemo.com/tm-516-known
   }
 
   #contact-form .form-control {
-    border: 0;
+    border: 1px solid #41a715;
     border-radius: 5px;
     box-shadow: none;
     margin: 10px 0;
@@ -722,11 +725,11 @@ https://templatemo.com/tm-516-known
 
   #contact-form input[type='submit'] {
     border-radius: 50px;
-    border: 1px solid transparent;
+    border: 1px solid #41a715;
   }
 
   #contact-form input[type='submit']:hover {
-    background: transparent;
+    background-color: #41a715;
     border-color: #ffffff;
     color: #ffffff;
   }
@@ -1046,7 +1049,7 @@ https://templatemo.com/tm-516-known
     width: 178px;
     border-radius: 50%;
     position: absolute;
-    height: 196px;
+    height: 178px;
     left: 70px;
     top: -91px;
   }
