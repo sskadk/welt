@@ -85,13 +85,13 @@ https://templatemo.com/tm-516-known
   }
 
   ::-webkit-scrollbar{
-    width: 8px;
-    height: 8px;
+    width: 3px;
+    height: 5px;
   }
 
   ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #000000;
+    background: #41a715;
   }
 
   .section-title {
